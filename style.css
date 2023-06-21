@@ -1,0 +1,299 @@
+ html body{
+    overflow-x: hidden;
+    min-width: 100vh
+
+}
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.navbar
+{
+    background-color: black;
+    color: white;
+}
+ .navbar .navbar-brand {
+    font-size: 30px;
+  }
+  .navbar .nav-item {
+    padding: 10px 20px;
+  }
+  .navbar .nav-link {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .fa-bars {
+    color: white;
+    font-size: 30px;
+  }
+  .container > img 
+  {
+    height: 58px;
+    width: 140px;
+ }
+ .nav-link > img 
+ {
+    height: 26px;
+    width: 28px;
+ }
+ .nav-item :hover
+ {
+      color: green;
+ }
+  
+.sec
+{
+    background: url(bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    height: 585px;
+    
+
+}  
+*{ 
+    margin: 0; 
+    padding: 0; 
+  } 
+  body{ 
+    overflow-x: hidden; 
+  } 
+  .rr{ 
+      background-color: black; 
+  } 
+  .section1{ 
+      background: url(img/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)); 
+      height: 585px; 
+  } 
+  .iphone{ 
+      width: 286px; 
+      height: 573px; 
+  }  
+  .sec1{ 
+      position: relative; 
+      width: 40%; 
+      padding-top: 100px; 
+      display: flex; 
+      -moz-box-pack: center; 
+      justify-content: center; 
+  } 
+  .ipimg { 
+      position: absolute; 
+      right: 0px; 
+      left: 0px; 
+      height: 423px; 
+      bottom: 85px; 
+      z-index: 1; 
+      display: flex; 
+      -moz-box-pack: center; 
+      justify-content: center; 
+  } 
+  @media (max-width: 1000px)  { 
+      .sec1{ 
+          display: none; 
+      } 
+  } 
+  .bt{ 
+    border: none;
+    color: black;
+    background-color: white;
+    width: 232px;
+    height: 58px;
+    border-radius: 60px;
+    font-weight: bold;
+}
+.bt:hover{ 
+      transform: scale(1.1); 
+      transition: 0.5; 
+     }
+ 
+
+.Text1 h2
+{
+    text-align: center;
+    margin-top: 80px;
+    font-weight: bold;
+
+}
+@media (min-width: 768px)
+{
+    .Text1
+    {
+        font-size: var(--headline-font-size,40px);
+        line-height: var(--headline-line-height,46px);
+    }
+}
+.P1
+{
+    font-weight: bold;
+    
+}
+.text2
+{
+    height: 494px;
+    background:linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    
+}
+.text2 p{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    align-items: center;
+}
+.text3
+{
+    height: 585px;
+    
+}
+.fd{ 
+    
+    cursor: pointer; 
+     
+    font-weight: 900; 
+  } 
+  .fd:hover{ 
+    background-color:rgb(235, 235, 235);
+  }
+.text5
+{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.text4
+{
+    background: url(https://www.scdn.co/i/free/lets-play.svg) center center / 100% no-repeat, linear-gradient(-155deg, rgb(108, 14, 224) 55%, rgb(240, 55, 166) 115%) rgb(108, 14, 224);
+    height: 450px;
+}
+.text4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text4-p{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.text4-b
+{
+    border: none;
+    color: black;
+    background-color: white;
+    width: 232px;
+    height: 58px;
+    border-radius: 60px;
+    font-weight: bold;
+
+}
+.text4-b :hover
+{
+    transform: scale(1.1); 
+      transition: 0.5; 
+}
+.footer
+{
+    height: 550px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 72px;
+}
+@media (max-width:991px)
+{
+    .footer
+    {
+        flex-direction: column;
+    }
+}
+@media(max-width:756px)
+{
+    .footer-text
+    {
+        flex-direction: column;
+    }
+}
+.footer-img > img 
+{
+    height: 43px;
+    width: 132px;
+}
+
+.footer-text
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 33px;
+  
+}
+
+
+.footer-text1 :hover{
+    color: green;
+    cursor: pointer;
+}
+.footer-text2 > p
+{
+    color: white;
+}
+.footer-text2 :hover{
+    color: green;
+    cursor: pointer;
+}
+.footer-text3 > p
+{
+    color: white;
+}
+.footer-text3 :hover{
+    color: green;
+    cursor: pointer;
+}
+
+.footer-img1
+{
+    display: flex;
+    justify-content: space-evenly
+    ;
+}
+.footer-img1 > img 
+{
+    
+    width: 59px;
+    height: 54px;
+    margin: 0%;
+}
+.icons{
+    display: flex;
+    justify-content: end;
+}
+@media(max-width: 746px)
+{
+    .icons
+    {
+     display: flex;
+     justify-content: start;     
+    }
+}
+#p1
+{
+    color: gray;
+}
+#p2
+{
+    color: gray;
+}
+#p3
+{
+    color: gray;
+}
+.divmr
+{
+    margin-bottom: 80px;
+}
